@@ -1,0 +1,189 @@
+
+/* font-family */
+/* body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    h1, h2 {
+    font-family: Arial, Verdana, sans-serif;}
+
+    .credits {
+    font-family: "Courier New", Courier, 
+        monospace;} */
+
+        /* Font Size */
+/* pixels */
+        /* p{
+            font-size: 500px;
+        }
+
+        /* percentage */
+        /* p{
+            font-size: 50%;
+        }
+
+        Default */
+        /* p{
+            font-size: xx-large;
+        }
+        /* em */
+        /* p{
+            font-size: 6em; }*/
+
+            /* Font-face */
+            /* @font-face {
+                font-family: poppins;
+                src: url(C:\Text Style\Poppins\Poppins-BoldItalic.ttf);
+            }
+
+            h1{
+                font-family: poppins;
+            } */
+
+        /* Font-Weight */
+        /* p{
+font-weight: bolder;
+        } */
+
+        /* Font Style */
+        /* p{
+            font-style: italic;
+        } */
+
+        /* using id selector for comparing styles */
+        /* #normal{
+            font-style:normal ;
+        }
+        #italic{
+            font-style: italic;
+        }
+        #oblique{
+            font-style: oblique;
+        } */
+
+        /* Text Transform */
+        /* h1{
+            text-transform: uppercase;
+        }
+
+        h1{
+            text-transform: capitalize;
+        } */
+
+        /* Text decoration */
+
+        /* #none {
+            text-decoration: none;
+        }
+        #overline{
+            text-decoration: overline;
+        }
+        #underline{
+            text-decoration: underline;
+        }
+        #line-through{
+text-decoration: line-through;
+        }
+      /* Line height */
+      /* p{
+        line-height: 10px;
+      } */
+
+      /* word spacing */
+      /* h1{
+        word-spacing: 7px;
+      } */
+
+      /* letter spacing
+      h1{
+        letter-spacing: 7px;
+      }
+
+      /* text align */
+      /* h1{
+        text-align: center;
+      }
+      p{
+        text-align: justify;
+      } */
+
+      /* vertical align */
+      /* img{
+        vertical-align: text-top;
+      } */
+
+      /* text indent */
+      /* h1{
+        text-indent: 50px;
+      } */ */
+
+/* text shadow */
+      /* p{
+        background-color: aqua;
+        color: blueviolet;
+        text-shadow: 1px  2px 1px red;
+      }
+
+      p::first-letter{
+        color: brown;
+      }
+
+      p::first-line{
+        color: blueviolet;
+      }
+      /* styling links */
+      /* a:link{
+        color: blue;
+      } */
+      /* a:visited{
+        color: brown;
+      } */ 
+
+      /* responding to user */
+      /* hover */
+
+      /* input.btn:hover{
+        background-color: brown;
+      }
+
+      input.btn:active{
+        background-color: aquamarine;
+      }
+
+      input.btn:focus{
+        background-color: blueviolet;} */
+       /* input.textBox:focus{
+     
+        background-color: black;
+      } */
+
+      /* attribute selectors */
+      /* h1[test]{
+        color: brown;
+      } */
+
+      /* equality */
+      /* h1[test="hi"]{
+        color: aquamarine;
+      } */ */
+/* space */
+      /* h1[test ~='world']{
+
+        color: green;
+      } */
+
+      /* prefix */
+           
+ /* h1[test^='w']{ */
+       /* color: yellowgreen;} */
+
+      /* substring */
+     h1 [test*=ld]{
+
+        color: orange;
+     }
+     /* suffix */
+    h1 [test$=d]{
+
+        color: red;
+    }
